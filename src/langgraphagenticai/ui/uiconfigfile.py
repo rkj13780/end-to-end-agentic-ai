@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 
 class Config:
-    def __init__(self,config_file="./e2e_agentic_ai/langgraphagenticai/ui/uiconfigfile.ini"):
+    def __init__(self,config_file="./src/langgraphagenticai/ui/uiconfigfile.ini"):
         self.config=ConfigParser()
         self.config.read(config_file)
 
@@ -16,3 +16,4 @@ class Config:
 
     def get_page_title(self):
         return self.config["DEFAULT"].get("PAGE_TITLE")
+
