@@ -1,7 +1,7 @@
 langchain
 langgraph
 langchain_community
-langchain_core
+langchain-core
 langchain_groq
 langchain_openai
 faiss-cpu
